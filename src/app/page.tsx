@@ -34,7 +34,7 @@ const Page = () => {
 							From a sketch on a napkin to systems 100+ companies run&nbsp;on.
 						</h1>
 						<div className="reveal mt-10 flex flex-col gap-8 sm:flex-row sm:items-center">
-							<Image src="/content/team-rikus-wiehahn.png" alt="Rikus Wiehahn" width={580} height={553} className="h-20 w-20 flex-none rounded-full grayscale ring-1 ring-white/20" />
+							<Image src="/content/team-rikus-wiehahn-avatar.webp" alt="Rikus Wiehahn" width={764} height={764} className="h-20 w-20 flex-none rounded-full object-cover grayscale ring-1 ring-white/20" />
 							<p className="max-w-xl text-lg leading-relaxed text-stone-400">
 								Hi, I&rsquo;m Rikus. I&rsquo;m the strategist, the designer and the engineer. Zeltta is my one-person studio, and I take on a few projects a year, almost always by referral.
 							</p>
@@ -240,6 +240,7 @@ const Page = () => {
 				<section className="border-t border-white/10">
 					<div className="mx-auto max-w-6xl px-6 py-24">
 						<p className="reveal font-mono text-xs uppercase tracking-[0.25em] text-stone-500">05 — About</p>
+						<Image src="/content/team-rikus-wiehahn.webp" alt="Rikus Wiehahn" width={1024} height={1024} className="reveal mt-10 w-full max-w-sm" />
 						<div className="reveal mt-10 max-w-3xl space-y-5 text-lg leading-relaxed text-stone-400">
 							<p>I started Zeltta in New Zealand in 2020 so I could choose my clients and build the unusual, complex systems agencies can&rsquo;t deliver, where layers of managers and coordination distort the idea and drag the timeline. Working alone, with the whole picture in one head, I can.</p>
 							<p>Most of the work on this page was built there, for founders and organisations that put the entire build in my hands. These days I run Zeltta from Brisbane, and I keep it small on purpose.</p>
