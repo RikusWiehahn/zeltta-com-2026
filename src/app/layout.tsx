@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { IBM_Plex_Mono, Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
@@ -50,7 +51,10 @@ export const viewport: Viewport = {
 const RootLayout = (props: { children: React.ReactNode }) => {
 	return (
 		<html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} ${ibmPlexMono.variable}`}>
-			<body className="bg-ink font-sans text-stone-300 antialiased">{props.children}</body>
+			<body className="bg-ink font-sans text-stone-300 antialiased">
+				{props.children}
+				<Analytics />
+			</body>
 		</html>
 	);
 };
