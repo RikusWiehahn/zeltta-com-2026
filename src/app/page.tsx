@@ -29,7 +29,7 @@ const Page = () => {
 				<section className="relative overflow-hidden">
 					<div className="pointer-events-none absolute -top-40 left-1/2 h-[560px] w-[860px] -translate-x-1/2 rounded-full bg-white/[0.06] blur-3xl"></div>
 					<div className="relative mx-auto max-w-6xl px-6 pb-24 pt-24 sm:pt-36">
-						<p className="reveal font-mono text-xs uppercase tracking-[0.25em] text-stone-500">Brisbane, Australia · Est. 2020</p>
+						<p className="reveal font-mono text-xs uppercase tracking-[0.25em] text-stone-500">Australia &amp; New Zealand · Est. 2020</p>
 						<h1 className="reveal mt-8 max-w-4xl font-display text-5xl leading-[1.02] text-stone-100 sm:text-7xl">
 							From a sketch on a napkin to systems 100+ companies run&nbsp;on.
 						</h1>
@@ -271,6 +271,30 @@ const Page = () => {
 
 			</main>
 
+			{/* ============ NOTES ============ */}
+			<section className="border-t border-white/10">
+				<div className="mx-auto max-w-6xl px-6 py-12">
+					<p className="font-mono text-xs uppercase tracking-[0.25em] text-stone-500">Notes</p>
+					<ul className="mt-4 space-y-2 font-mono text-sm text-stone-400">
+						<li>
+							<a href="/article/is-your-developer-using-maintainable-tools" className="transition hover:text-stone-200">
+								Is your developer using maintainable tools?
+							</a>
+						</li>
+						<li>
+							<a href="/article/how-to-detect-inactivity-and-auto-reset-a-react-app" className="transition hover:text-stone-200">
+								How to detect inactivity and auto-reset a React app
+							</a>
+						</li>
+						<li>
+							<a href="/article/100-actionable-ways-to-advertise-a-small-business" className="transition hover:text-stone-200">
+								100 actionable ways to advertise a small business
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
 			{/* ============ FOOTER ============ */}
 			<footer className="border-t border-white/10">
 				<div className="mx-auto max-w-6xl px-6 py-12">
@@ -280,10 +304,11 @@ const Page = () => {
 							<p className="mt-3 max-w-xs text-sm leading-relaxed text-stone-500">Custom software, designed, built and shipped by Rikus Wiehahn.</p>
 						</div>
 						<div className="space-y-2 font-mono text-sm text-stone-400">
-							<p>Brisbane, Australia</p>
+							<p>Australia &amp; New Zealand</p>
 							<p><EmailReveal label="Show email" /></p>
 							<p><a href="https://www.linkedin.com/in/rikusw/" className="transition hover:text-stone-200">LinkedIn</a></p>
 							<p className="text-stone-600">ABN 89 848 562 991</p>
+							<p className="text-stone-600">NZBN 9429048777858</p>
 						</div>
 					</div>
 					<p className="mt-10 border-t border-white/10 pt-6 font-mono text-xs text-stone-600">© 2026 Zeltta · Trade business software: <a href="https://zeltta.com.au" className="transition hover:text-stone-300">zeltta.com.au</a></p>

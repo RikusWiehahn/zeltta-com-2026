@@ -8,11 +8,6 @@ const nextConfig: NextConfig = {
 				destination: "/",
 				permanent: true,
 			},
-			{
-				source: "/article/:path*",
-				destination: "/",
-				permanent: true,
-			},
 		];
 	},
 };
