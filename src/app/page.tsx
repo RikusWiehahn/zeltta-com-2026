@@ -50,8 +50,8 @@ const Page = () => {
 								<dd className="mt-2 text-sm leading-relaxed text-stone-500">companies across New Zealand open software I built, every working day.</dd>
 							</div>
 							<div>
-								<dt className="font-display text-5xl text-stone-100">1M+ plays</dt>
-								<dd className="mt-2 text-sm leading-relaxed text-stone-500">across promotional games built directly for JB Hi-Fi campaigns.</dd>
+								<dt className="font-display text-5xl text-stone-100">1M+ people</dt>
+								<dd className="mt-2 text-sm leading-relaxed text-stone-500">have used software I designed and shipped.</dd>
 							</div>
 							<div>
 								<dt className="font-display text-5xl text-stone-100">10 years</dt>
