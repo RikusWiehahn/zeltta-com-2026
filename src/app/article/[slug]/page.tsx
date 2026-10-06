@@ -131,7 +131,7 @@ const ArticlePage = async (props: { params: Promise<{ slug: string }> }) => {
 					<div className="mx-auto flex max-w-3xl flex-col gap-6 px-6 py-16 sm:flex-row sm:items-center sm:justify-between">
 						<div>
 							<p className="font-display text-2xl text-stone-100">Want something built?</p>
-							<p className="mt-2 text-stone-400">A few projects a year. Almost always by referral.</p>
+							<p className="mt-2 text-stone-400">A few projects a year.</p>
 						</div>
 						<a href="/#book" className="inline-block rounded-full bg-white px-7 py-3.5 text-center text-base font-semibold text-ink transition hover:bg-stone-300">
 							Book a 20-min chat

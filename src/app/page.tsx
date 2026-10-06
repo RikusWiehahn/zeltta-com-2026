@@ -36,7 +36,7 @@ const Page = () => {
 						<div className="reveal mt-10 flex flex-col gap-8 sm:flex-row sm:items-center">
 							<Image src="/content/team-rikus-wiehahn-avatar.webp" alt="Rikus Wiehahn" width={764} height={764} className="h-20 w-20 flex-none rounded-full object-cover grayscale ring-1 ring-white/20" />
 							<p className="max-w-xl text-lg leading-relaxed text-stone-400">
-								Hi, I&rsquo;m Rikus. I&rsquo;m the strategist, the designer and the engineer. Zeltta is my one-person studio, and I take on a few projects a year, almost always by referral.
+								Hi, I&rsquo;m Rikus. I&rsquo;m the strategist, the designer and the engineer. Zeltta is my one-person custom software studio, and I take on a few projects a year.
 							</p>
 						</div>
 						<div className="reveal mt-12 flex flex-wrap items-center gap-5">

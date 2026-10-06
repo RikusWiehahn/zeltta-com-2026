@@ -22,7 +22,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 const description =
-	"Zeltta is the one-person Brisbane software studio of Rikus Wiehahn. From a sketch on a napkin to systems 100+ companies run on. A few projects a year, almost always by referral.";
+	"Zeltta is the one-person Brisbane software studio of Rikus Wiehahn. From a sketch on a napkin to systems 100+ companies run on. A few projects a year.";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://zeltta.com"),
