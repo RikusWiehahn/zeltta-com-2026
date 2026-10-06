@@ -115,7 +115,7 @@ const Page = () => {
 						{/* Featured: StarSafe */}
 						<article className="reveal mt-20 grid items-center gap-10 lg:grid-cols-5">
 							<a href="https://starsafe.app" className="group block lg:col-span-3">
-								<Image src="/content/case-star-safe.jpeg" alt="StarSafe health and safety platform" width={2878} height={1514} className="w-full rounded-xl ring-1 ring-white/15 transition group-hover:ring-white/40" />
+								<Image src="/content/case-star-safe.jpeg" alt="StarSafe health and safety platform" width={1024} height={533} className="w-full rounded-xl ring-1 ring-white/15 transition group-hover:ring-white/40" />
 							</a>
 							<div className="lg:col-span-2">
 								<p className="font-mono text-xs uppercase tracking-[0.25em] text-stone-500">Star Safety · Web, iOS, Android</p>
