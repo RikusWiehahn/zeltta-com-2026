@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { IBM_Plex_Mono, Inter, Space_Grotesk } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -54,6 +55,9 @@ const RootLayout = (props: { children: React.ReactNode }) => {
 			<body className="bg-ink font-sans text-stone-300 antialiased">
 				{props.children}
 				<Analytics />
+				<Script id="openai-pixel" strategy="afterInteractive">
+					{`!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"WvBWn5B3XyPy6ouDuBvKZF",debug:true});`}
+				</Script>
 			</body>
 		</html>
 	);
