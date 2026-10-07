@@ -51,11 +51,11 @@ const Page = () => {
 							</div>
 							<div>
 								<dt className="font-display text-5xl text-stone-100">1M+ people</dt>
-								<dd className="mt-2 text-sm leading-relaxed text-stone-500">have used software I designed and shipped.</dd>
+								<dd className="mt-2 text-sm leading-relaxed text-stone-500">have used software I designed and built.</dd>
 							</div>
 							<div>
 								<dt className="font-display text-5xl text-stone-100">10 years</dt>
-								<dd className="mt-2 text-sm leading-relaxed text-stone-500">shipping software end to end: web, iOS and Android.</dd>
+								<dd className="mt-2 text-sm leading-relaxed text-stone-500">building software end to end: web, iOS and Android.</dd>
 							</div>
 						</dl>
 
@@ -82,7 +82,7 @@ const Page = () => {
 						<div className="mt-12 grid gap-14 sm:grid-cols-2">
 							<div className="reveal">
 								<h3 className="font-display text-3xl text-stone-100">Digital agencies</h3>
-								<p className="mt-4 text-base leading-relaxed text-stone-400">A senior product engineer who plugs into your team when the stakes are high. I build under your brand, for your client. Agencies like Ingot have leaned on me for years.</p>
+								<p className="mt-4 text-base leading-relaxed text-stone-400">A senior engineer who joins your team when the stakes are high. I build under your brand, for your client. Agencies like Ingot have leaned on me for years.</p>
 								<figure className="mt-8 border-l border-stone-700 pl-5">
 									<blockquote className="text-lg leading-relaxed text-stone-200">&ldquo;Zeltta are a huge asset for us. Timely, well-crafted apps and dev with good comms.&rdquo;</blockquote>
 									<figcaption className="mt-4 flex items-center gap-3 text-sm">
@@ -130,7 +130,7 @@ const Page = () => {
 							<div className="order-2 lg:order-1 lg:col-span-2">
 								<p className="font-mono text-xs uppercase tracking-[0.25em] text-stone-500">Ōkupu · Marketplace · Web, iOS, Android</p>
 								<h3 className="mt-3 font-display text-4xl text-stone-100">The first Māori online translation service</h3>
-								<p className="mt-4 text-base leading-relaxed text-stone-400">Customers place an order and fluent te reo Māori translators deliver it. I built the payments, automatic payouts, audio recording, and a white-label engine ready for other languages. 1,000+ translations completed.</p>
+								<p className="mt-4 text-base leading-relaxed text-stone-400">Customers place an order and fluent te reo Māori translators deliver it. I built the payments, automatic payouts and audio recording, and set it up so other languages can use the same system. 1,000+ translations completed.</p>
 								<a href="https://okupu.co.nz" className="mt-5 inline-block font-mono text-sm text-stone-300 underline decoration-stone-700 underline-offset-8 transition hover:text-white hover:decoration-stone-400">okupu.co.nz ↗</a>
 								<figure className="mt-7 border-l border-stone-700 pl-5">
 									<blockquote className="text-sm leading-relaxed text-stone-400">&ldquo;E kaha ana taku whaikupu kia mahi ki tō Rikus taha me tō hinonga te whai ake nei.&rdquo;</blockquote>
@@ -192,7 +192,7 @@ const Page = () => {
 						<p className="reveal font-mono text-xs uppercase tracking-[0.25em] text-stone-500">03 — How I think</p>
 						<div className="mt-14 space-y-16">
 							<div className="reveal grid gap-4 lg:grid-cols-5">
-								<p className="font-display text-4xl leading-tight text-stone-100 lg:col-span-3">Boring technology ships.</p>
+								<p className="font-display text-4xl leading-tight text-stone-100 lg:col-span-3">Boring technology lasts.</p>
 								<p className="text-base leading-relaxed text-stone-400 lg:col-span-2">I build on TypeScript, React, React Native, Node and Postgres, because in ten years any good engineer will still be able to maintain it. Your system should never be hostage to one person&rsquo;s favourite niche tools.</p>
 							</div>
 							<div className="reveal grid gap-4 lg:grid-cols-5">
@@ -200,8 +200,8 @@ const Page = () => {
 								<p className="text-base leading-relaxed text-stone-400 lg:col-span-2">Anything looks good in a walkthrough. The software I&rsquo;m proud of is the kind people open every working day for years without thinking about it.</p>
 							</div>
 							<div className="reveal grid gap-4 lg:grid-cols-5">
-								<p className="font-display text-4xl leading-tight text-stone-100 lg:col-span-3">One accountable person beats a handoff chain.</p>
-								<p className="text-base leading-relaxed text-stone-400 lg:col-span-2">The strategist, the designer and the developer are the same person. Whoever took your first call also deploys the code and answers the support email.</p>
+								<p className="font-display text-4xl leading-tight text-stone-100 lg:col-span-3">One accountable person beats a chain of handovers.</p>
+								<p className="text-base leading-relaxed text-stone-400 lg:col-span-2">The strategist, the designer and the developer are the same person. Whoever took your first call also puts the software live and answers the support email.</p>
 							</div>
 						</div>
 					</div>
@@ -215,13 +215,13 @@ const Page = () => {
 						<div className="mt-14 grid gap-12 lg:grid-cols-3">
 							<div className="reveal">
 								<p className="font-mono text-xs uppercase tracking-[0.25em] text-stone-500">Step 1</p>
-								<h3 className="mt-3 font-display text-2xl text-stone-100">The Scoping Sprint</h3>
-								<p className="mt-3 text-base leading-relaxed text-stone-400">Every project starts with a short, paid sprint. You leave with a fixed quote and a build plan solid enough to hand to any developer.</p>
+								<h3 className="mt-3 font-display text-2xl text-stone-100">The scoping phase</h3>
+								<p className="mt-3 text-base leading-relaxed text-stone-400">Every project starts with a short, paid scoping phase. You leave with a fixed quote and a build plan solid enough to hand to any developer.</p>
 							</div>
 							<div className="reveal">
 								<p className="font-mono text-xs uppercase tracking-[0.25em] text-stone-500">Step 2</p>
 								<h3 className="mt-3 font-display text-2xl text-stone-100">The build</h3>
-								<p className="mt-3 text-base leading-relaxed text-stone-400">I do the work myself, from the first call to the final deploy. You see working software within weeks, and every decision is made by the person who has to live with it.</p>
+								<p className="mt-3 text-base leading-relaxed text-stone-400">I do the work myself, from the first call to the day it goes live. You see working software within weeks, and every decision is made by the person who has to live with it.</p>
 							</div>
 							<div className="reveal">
 								<p className="font-mono text-xs uppercase tracking-[0.25em] text-stone-500">Step 3</p>
@@ -230,8 +230,8 @@ const Page = () => {
 							</div>
 						</div>
 						<div className="mt-16 grid gap-12 border-t border-white/10 pt-12 lg:grid-cols-2">
-							<p className="reveal self-center text-lg leading-relaxed text-stone-400">Projects typically start at $30k. If your budget or timeline doesn&rsquo;t fit that, I&rsquo;ll tell you on the first call and point you somewhere that does.</p>
-							<p className="reveal self-center font-display text-5xl leading-tight text-stone-100 lg:text-right">If I take your project on, it&nbsp;ships.</p>
+							<p className="reveal self-center text-lg leading-relaxed text-stone-400">Projects typically start at $10k. If your budget or timeline doesn&rsquo;t fit that, I&rsquo;ll tell you on the first call and point you somewhere that does.</p>
+							<p className="reveal self-center font-display text-5xl leading-tight text-stone-100 lg:text-right">If I take your project on, it gets finished.</p>
 						</div>
 					</div>
 				</section>
@@ -301,7 +301,7 @@ const Page = () => {
 					<div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
 						<div>
 							<Image src="/assets/logo-text.png" alt="Zeltta" width={1459} height={703} className="h-6 w-auto" />
-							<p className="mt-3 max-w-xs text-sm leading-relaxed text-stone-500">Custom software, designed, built and shipped by Rikus Wiehahn.</p>
+							<p className="mt-3 max-w-xs text-sm leading-relaxed text-stone-500">Custom software, designed, built and delivered by Rikus Wiehahn.</p>
 						</div>
 						<div className="space-y-2 font-mono text-sm text-stone-400">
 							<p>Australia &amp; New Zealand</p>
