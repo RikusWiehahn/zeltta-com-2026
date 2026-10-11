@@ -47,7 +47,7 @@ const Page = () => {
 						<dl className="reveal mt-24 grid gap-10 border-t border-white/10 pt-10 sm:grid-cols-3">
 							<div>
 								<dt className="font-display text-5xl text-stone-100">100+</dt>
-								<dd className="mt-2 text-sm leading-relaxed text-stone-500">companies across New Zealand open software I built, every working day.</dd>
+								<dd className="mt-2 text-sm leading-relaxed text-stone-500">companies use software I built, every working day.</dd>
 							</div>
 							<div>
 								<dt className="font-display text-5xl text-stone-100">1M+ people</dt>
